@@ -1,0 +1,63 @@
+﻿@model STAFF___MANUFACTURING_PLANTS_State_Pharmaceutical_Cooperation__.Models.Inventory_Details
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Add New Inventory Item</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        Drug Name
+        @Html.TextBoxFor(model => model.Drug_Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Drug_Name)
+    </div>
+
+    <div class="form-group">
+        Company
+        @Html.TextBoxFor(model => model.Manufacturing_Company, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Manufacturing_Company)
+    </div>
+
+    <div class="form-group">
+        Stock Quantity
+        @Html.TextBoxFor(model => model.Stock_Quantity, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Stock_Quantity)
+    </div>
+
+    <div class="form-group">
+        Supplier Name
+        @Html.TextBoxFor(model => model.Supplier_Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Supplier_Name)
+    </div>
+
+    <div class="form-group">
+        Exp Date
+        @Html.TextBoxFor(model => model.Expiry_Date, new { @class = "form-control", type = "date" })
+        @Html.ValidationMessageFor(model => model.Expiry_Date)
+    </div>
+
+    <div class="form-group">
+        Unit Price
+        @Html.TextBoxFor(model => model.Unit_Price, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Unit_Price)
+    </div>
+
+    <div class="form-group">
+        Last Restock Date
+        @Html.TextBoxFor(model => model.Last_Restock_Date, new { @class = "form-control", type = "date" })
+        @Html.ValidationMessageFor(model => model.Last_Restock_Date)
+    </div>
+
+    <div class="form-group">
+        Batch
+        @Html.TextBoxFor(model => model.Batch_Number, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Batch_Number)
+    </div>
+    <br>
+    <button type="submit" class="btn btn-red">Create</button>
+    @Html.ActionLink("Back to Dashboard", "Dashboard", null, new { @class = "btn btn-primary" })
+}

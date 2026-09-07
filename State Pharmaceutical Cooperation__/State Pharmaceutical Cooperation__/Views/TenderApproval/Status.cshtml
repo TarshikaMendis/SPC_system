@@ -1,0 +1,25 @@
+﻿@model State_Pharmaceutical_Cooperation__.Models.TenderApproval
+
+@{
+    ViewBag.Title = "Update Tender Approval Status";
+}
+
+<h2>Update Tender Approval Status</h2>
+
+@using (Html.BeginForm("Status", "TenderApproval", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.ApprovalId)
+
+    <div class="form-group">
+        <label for="newStatus">New Status:</label>
+        <select id="newStatus" name="newStatus" class="form-control">
+            <option value="Pending">Pending</option>
+            <option value="Approved">Approved</option>
+            <option value="Rejected">Rejected</option>
+        </select>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Update Status</button>
+    @Html.ActionLink("Cancel", "TenderApprovalsList", null, new { @class = "btn btn-default" })
+}

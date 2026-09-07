@@ -1,0 +1,47 @@
+﻿@model IEnumerable<SUPPLIERS_State_pharmaceutical_Cooperation.Models.TenderProposal>
+
+@{
+    ViewBag.Title = "Tender Proposal List";
+}
+
+<h2>Tender Proposals</h2>
+
+
+<p>
+    @Html.ActionLink("Add Tender Proposal", "Create")
+</p>
+
+<!-- Tender Proposals Table -->
+<table class="table" id="proposalTable">
+    <thead>
+        <tr>
+            <th>Supplier</th>
+            <th>Drug</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Total Cost</th>
+            <th>Proposed Delivery Date</th>
+            <th>Description</th>
+            <th>Status</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.SupplierName)</td>
+                <td>@Html.DisplayFor(modelItem => item.DrugName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                <td>@Html.DisplayFor(modelItem => item.UnitPrice)</td>
+                <td>@Html.DisplayFor(modelItem => item.TotalCost)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProposedDeliveryDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                <td>@Html.DisplayFor(modelItem => item.Status)</td>
+             
+            </tr>
+        }
+    </tbody>
+</table>
+
+

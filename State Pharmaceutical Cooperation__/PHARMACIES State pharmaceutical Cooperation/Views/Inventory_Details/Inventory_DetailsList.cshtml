@@ -1,0 +1,89 @@
+﻿@model IEnumerable<PHARMACIES_State_pharmaceutical_Cooperation.Models.Inventory_Details>
+
+@{
+    ViewBag.Title = "Inventory List";
+}
+
+@{
+    // Check if TempData contains the success message and display it
+    var successMessage = TempData["SuccessMessage"] as string;
+}
+
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <div class="alert alert-success">
+        @successMessage
+    </div>
+}
+
+<h2>Inventory details</h2>
+
+<!-- Search Form -->
+<div class="form-group">
+    <label for="searchQuery">Search</label>
+    <input type="text" id="searchQuery" class="form-control" placeholder="Search Drug Name" onkeyup="searchTable()" />
+</div>
+
+<table class="table" id="inventoryTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Stock Quantity</th>
+            <th>Supplier Name</th>
+            <th>Exp Date</th>
+            <th>Price</th>
+            <th>Batch</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Drug_Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Manufacturing_Company)</td>
+                <td>@Html.DisplayFor(modelItem => item.Stock_Quantity)</td>
+                <td>@Html.DisplayFor(modelItem => item.Supplier_Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Expiry_Date)</td>
+                <td>@Html.DisplayFor(modelItem => item.Unit_Price)</td>
+                <td>@Html.DisplayFor(modelItem => item.Batch_Number)</td>
+                <td>
+                   
+                    @Html.ActionLink("Order Now", "OrderNow", new { id = item.Id }, new { @class = "btn btn-primary" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- JavaScript to filter the table -->
+<script>
+    function searchTable() {
+        var input = document.getElementById("searchQuery");
+        var filter = input.value.toLowerCase();
+        var table = document.getElementById("inventoryTable");
+        var rows = table.getElementsByTagName("tr");
+
+        for (var i = 1; i < rows.length; i++) {  // Skip header row
+            var cells = rows[i].getElementsByTagName("td");
+            var found = false;
+
+            for (var j = 0; j < cells.length; j++) {
+                if (cells[j]) {
+                    var text = cells[j].textContent || cells[j].innerText;
+                    if (text.toLowerCase().indexOf(filter) > -1) {
+                        found = true;
+                        break;
+                    }
+                }
+            }
+
+            if (found) {
+                rows[i].style.display = "";
+            } else {
+                rows[i].style.display = "none";
+            }
+        }
+    }
+</script>

@@ -1,0 +1,118 @@
+﻿@{
+    ViewBag.Title = "User Management";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management Dashboard</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #F3E8FF; /* Light Purple Background */
+            color: #4A3573; /* Deep Purple for text */
+            margin: 0;
+            padding: 0;
+        }
+
+        .dashboard-container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 25px;
+            background: #fff; /* White Background */
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(74, 53, 115, 0.2);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #4A3573; /* Deep Purple */
+        }
+
+        .lead {
+            font-size: 1.1em;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #6D5A99; /* Softer Purple */
+        }
+
+        /* Navigation Buttons */
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 18px;
+            font-size: 16px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn i {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        /* Button Colors */
+        .btn-purple {
+            background: #A46EDA; /* Light Purple */
+            box-shadow: 0 3px 10px rgba(164, 110, 218, 0.4);
+        }
+
+        .btn-purple:hover {
+            background: #8F5EC1; /* Slightly Darker Purple */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <main class="dashboard-container">
+        <!-- Overview -->
+        <section class="welcome-section">
+            <h1>User Types</h1>
+            
+
+        </section>
+
+        <!-- Navigation Buttons -->
+        <section class="navigation-section">
+            
+            <div class="button-container">
+                <a href="@Url.Action("AdminList", "Admin")" class="btn btn-purple">
+                    <i class="fas fa-user-shield"></i>
+                    Admins
+                </a>
+                <a href="@Url.Action("PharmacyList", "Pharmacy")" class="btn btn-purple">
+                    <i class="fas fa-store"></i>
+                    Pharmacies
+                </a>
+                <a href="@Url.Action("SupplierList", "Supplier")" class="btn btn-purple">
+                    <i class="fas fa-truck"></i>
+                    Suppliers
+                </a>
+                <a href="@Url.Action("StaffManufacturingList", "Staff")" class="btn btn-purple">
+                    <i class="fas fa-users"></i>
+                    Staff
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

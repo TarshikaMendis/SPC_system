@@ -1,0 +1,55 @@
+﻿@model IEnumerable<STAFF___MANUFACTURING_PLANTS_State_Pharmaceutical_Cooperation__.Models.Inventory_Details>
+
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<main class="dashboard-container">
+    <h1>Welcome Staff!</h1>
+    
+
+    <p>
+        @Html.ActionLink("Add New Item", "Create", null, new { @class = "btn btn-red" })
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Stock Quantity</th>
+                <th>Supplier</th>
+                <th>Exp Date</th>
+                <th>Price(LKR)</th>
+                <th>Last Restock Date</th>
+                <th>Batch</th>
+                <th>Operations</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Drug_Name</td>
+                    <td>@item.Manufacturing_Company</td>
+                    <td>@item.Stock_Quantity</td>
+                    <td>@item.Supplier_Name</td>
+                    <td>@item.Expiry_Date</td>
+                    <td>@item.Unit_Price</td>
+                    <td>@item.Last_Restock_Date</td>
+                    <td>@item.Batch_Number</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+  
+</main>
+
+
+   
+

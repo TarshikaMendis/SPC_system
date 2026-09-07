@@ -1,0 +1,36 @@
+﻿@model State_Pharmaceutical_Cooperation__.Models.TenderApproval
+
+@{
+    ViewBag.Title = "Tender Approval Details";
+}
+
+<h2>Tender Approval Details</h2>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>Drug Name:</dt>
+        <dd>@Model.DrugName</dd>
+
+        <dt>Quantity:</dt>
+        <dd>@Model.Quantity</dd>
+
+        <dt>Supplier Name:</dt>
+        <dd>@Model.SupplierName</dd>
+
+        <dt>Unit Price:</dt>
+        <dd>@Model.UnitPrice.ToString("C")</dd>
+
+        <dt>Total Cost:</dt>
+        <dd>@Model.TotalCost.ToString("C")</dd>
+
+        <dt>Delivery Date:</dt>
+        <dd>@Model.DeliveryDate.ToString("yyyy-MM-dd")</dd>
+
+        <dt>Status:</dt>
+        <dd>@Model.Status</dd>
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Back to List", "TenderApprovalsList")
+</p>

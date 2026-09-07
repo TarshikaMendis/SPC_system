@@ -1,0 +1,40 @@
+﻿@model IEnumerable<State_Pharmaceutical_Cooperation__.Models.Tender>
+
+@{
+    ViewBag.Title = "Tender List";
+}
+
+<h2>Tenders</h2>
+
+<p>
+    @Html.ActionLink("Add New Tender", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Quantity Required</th>
+        <th>Description</th>
+        <th>Published Date</th>
+        <th>Closing Date</th>
+        <th>Status</th>
+        <th>Operations</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.DrugName)</td>
+            <td>@Html.DisplayFor(modelItem => item.QuantityRequired)</td>
+            <td>@Html.DisplayFor(modelItem => item.TenderDescription)</td>
+            <td>@Html.DisplayFor(modelItem => item.PublishedDate)</td>
+            <td>@Html.DisplayFor(modelItem => item.ClosingDate)</td>
+            <td>@Html.DisplayFor(modelItem => item.Status)</td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.TenderID }) |
+                @Html.ActionLink("Edit", "Edit", new { id = item.TenderID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.TenderID })
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,87 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+<main class="dashboard-container">
+    <!-- Overview of SPC -->
+    <section class="welcome-section" aria-labelledby="spcOverviewTitle">
+        <h1 id="spcOverviewTitle">Pharmacy Dashboard</h1>
+
+        <p class="lead">
+            Order high-quality pharmaceutical product in here....
+        </p>
+
+        
+
+
+    </section>
+
+    <!-- Navigation Buttons -->
+    <section class="navigation-section">
+        
+        <div class="button-container">
+            <a href="@Url.Action("Inventory_DetailsList", "Inventory_Details")" class="btn btn-purple">
+                Order Drugs
+            </a>
+
+            <a href="@Url.Action("Orders_DetailsList", "Inventory_Details")" class="btn btn-purple">
+                Order Details
+            </a>
+        </div>
+    </section>
+</main>
+
+<style>
+    /* General Styling */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: gray;
+        margin: 0;
+        padding: 0;
+    }
+
+    .dashboard-container {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+        text-align: center;
+        color: #021837;
+    }
+
+    .lead {
+        font-size: 1.1em;
+        text-align: center;
+        color: #4b0082; /* Deep Purple */
+        margin-bottom: 15px;
+    }
+
+    /* Navigation Buttons */
+    .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 16px;
+        text-decoration: none;
+        color: navajowhite;
+        background-color: black;
+        border-radius: 6px;
+        transition: background 0.3s, transform 0.2s;
+        text-align: center;
+    }
+
+        .btn:hover {
+            background-color: orange;
+            transform: translateY(-2px);
+        }
+</style>

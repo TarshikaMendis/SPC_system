@@ -1,0 +1,41 @@
+﻿@model IEnumerable<State_Pharmaceutical_Cooperation__.Models.TenderApproval>
+
+@{
+    ViewBag.Title = "Tender Approvals List";
+}
+
+<h2>Tender Approvals</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Drug Name</th>
+            <th>Quantity</th>
+            <th>Supplier Name</th>
+            <th>Unit Price</th>
+            <th>Total Cost</th>
+            <th>Delivery Date</th>
+            <th>Status</th>
+            <th>Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.DrugName</td>
+                <td>@item.Quantity</td>
+                <td>@item.SupplierName</td>
+                <td>@item.UnitPrice</td>
+                <td>@item.TotalCost</td>
+                <td>@item.DeliveryDate.ToString("yyyy-MM-dd")</td>
+                <td>@item.Status</td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = item.ApprovalId }) |
+                    @Html.ActionLink("Update Status", "Status", new { id = item.ApprovalId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ApprovalId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,92 @@
+﻿@model State_Pharmaceutical_Cooperation__.Models.Inventory_Details
+
+@{
+    ViewBag.Title = "Edit Inventory Item";
+}
+
+<h2>Edit Inventory Item</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="form-group">
+        Drug Name
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Drug_Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Drug_Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        Manufacturing Company
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Manufacturing_Company, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Manufacturing_Company, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        Stock Quantity
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Stock_Quantity, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Stock_Quantity, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        Supplier Name
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Supplier_Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Supplier_Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        Expiry Date
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Expiry_Date, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+            @Html.ValidationMessageFor(model => model.Expiry_Date, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        Unit Price
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Unit_Price, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Unit_Price, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+       Last Restock Date
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Last_Restock_Date, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+            @Html.ValidationMessageFor(model => model.Last_Restock_Date, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        Batch Number
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Batch_Number, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Batch_Number, "", new { @class = "text-danger" })
+        </div>
+    </div> 
+    <br>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+}
+<br>
+<div>
+    @Html.ActionLink("Back to List", "Inventory_DetailsList")
+</div>

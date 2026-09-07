@@ -1,0 +1,39 @@
+﻿@model IEnumerable<State_Pharmaceutical_Cooperation__.Models.Orders_Details>
+
+<h2>Orders </h2>
+<table class="table">
+    <thead>
+        <tr>
+            
+            <th>Pharmacy Name</th>
+            <th>Drug Name</th>
+            <th>Batch</th>
+            <th>Quantity </th>
+            <th>Unit Price (LKR)</th>
+            <th>Total Cost</th>
+            <th>Order Date</th>
+            <th>Status</th>
+            <th>Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                
+                <td>@item.Pharmacy_Name</td>
+                <td>@item.Drug_Name</td>
+                <td>@item.Batch_Number</td>
+                <td>@item.Quantity_Ordered</td>
+                <td>@item.Unit_Price</td>
+                <td>@item.Total_Cost</td>
+                <td>@item.Order_Date.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>@item.Status</td>
+                <td>
+                    @Html.ActionLink("Status", "Status", new { id = item.Order_Id }) 
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Order_Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

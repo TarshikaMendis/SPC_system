@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SPC.api\\SPC.api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "State Pharmaceutical Cooperation__\\Admin_.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

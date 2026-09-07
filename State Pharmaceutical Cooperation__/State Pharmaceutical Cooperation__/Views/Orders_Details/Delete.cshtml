@@ -1,0 +1,65 @@
+﻿@model State_Pharmaceutical_Cooperation__.Models.Orders_Details
+
+@{
+    ViewBag.Title = "Delete Order";
+}
+
+
+
+<h3>Are you sure you want to delete this Order?</h3>
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Pharmacy Name:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pharmacy_Name)
+        </dd>
+        <dt>
+           Drug Name:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Drug_Name)
+        </dd>
+        <dt>
+           Batch Number:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Batch_Number)
+        </dd>
+        <dt>
+            Quantity Ordered:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Quantity_Ordered)
+        </dd>
+        <dt>
+            Unit Price:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Unit_Price)
+        </dd>
+        <dt>
+            Total Cost:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Total_Cost)
+        </dd>
+        <dt>
+            Status:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <input type="submit" value="Delete" class="btn btn-danger" />
+    }
+    <br>
+    <p>@Html.ActionLink("Back to List", "Orders_DetailsList")</p>
+</div>

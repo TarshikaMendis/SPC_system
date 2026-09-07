@@ -1,0 +1,32 @@
+﻿@model IEnumerable<State_Pharmaceutical_Cooperation__.Models.Pharmacy>
+
+@{
+    ViewBag.Title = "Pharmacy List";
+}
+
+<h2>Pharmacies</h2>
+
+<p>
+    @Html.ActionLink("Add New Pharmacy", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.First().Email)</th>
+        <th>@Html.DisplayNameFor(model => model.First().Password)</th>
+        <th>Operations</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Email)</td>
+            <td>@Html.DisplayFor(modelItem => item.Password)</td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>

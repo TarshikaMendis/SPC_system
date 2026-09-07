@@ -1,0 +1,37 @@
+﻿@model PHARMACIES_State_pharmaceutical_Cooperation.Models.PharmacyNotification
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Pharmacy Notification</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Message)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Message)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Datetime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Datetime)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "PharmacyNotificationsList")
+</p>

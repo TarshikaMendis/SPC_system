@@ -1,0 +1,54 @@
+﻿@model State_Pharmaceutical_Cooperation__.Models.TenderProposal
+
+@{
+    ViewBag.Title = "Update Tender Proposal Status";
+}
+
+<h2>Update Tender Proposal Status</h2>
+
+@using (Html.BeginForm("Status", "TenderProposal", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.ID)
+
+    <!-- Display Tender Proposal Main Details -->
+    <div class="tender-proposal-details">
+        
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>Supplier Name:</dt>
+            <dd>@Model.SupplierName</dd>
+
+            <dt>Drug Name:</dt>
+            <dd>@Model.DrugName</dd>
+
+            <dt>Quantity:</dt>
+            <dd>@Model.Quantity</dd>
+
+            <dt>Unit Price:</dt>
+            <dd>@Model.UnitPrice</dd> <!-- Format as currency -->
+
+            <dt>Total Cost:</dt>
+            <dd>@Model.TotalCost</dd> <!-- Format as currency -->
+
+            <dt>Proposed Delivery Date:</dt>
+            <dd>@Model.ProposedDeliveryDate.ToString("yyyy-MM-dd")</dd>
+
+            <dt>Current Status:</dt>
+            <dd>@Model.Status</dd>
+        </dl>
+    </div>
+
+    <!-- Status Update Section -->
+    <div class="form-group">
+        <label for="newStatus">New Status:</label>
+        <select id="newStatus" name="newStatus" class="form-control">
+            <option value="Pending">Pending</option>
+            <option value="Accepted">Accepted</option>
+            <option value="Rejected">Rejected</option>
+        </select>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Update Status</button>
+    @Html.ActionLink("Cancel", "TenderProposalList", null, new { @class = "btn btn-default" })
+}

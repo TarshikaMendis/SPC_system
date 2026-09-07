@@ -1,0 +1,114 @@
+﻿@model SUPPLIERS_State_pharmaceutical_Cooperation.Models.TenderProposal
+
+@{
+    ViewBag.Title = "Create";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Add Tender Proposal</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <!-- Supplier Name -->
+    <div class="form-group">
+        Supplier Name
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplierName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.SupplierName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <!-- Drug Name -->
+    <div class="form-group">
+       Drug Name
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.DrugName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.DrugName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <!-- Quantity -->
+    <div class="form-group">
+       Quantity
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control", id = "quantity" } })
+            @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <!-- Unit Price -->
+    <div class="form-group">
+        Unit Price
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.UnitPrice, new { htmlAttributes = new { @class = "form-control", id = "unitPrice" } })
+            @Html.ValidationMessageFor(model => model.UnitPrice, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <!-- Total Cost (Readonly, calculated by JS) -->
+    <div class="form-group">
+       Total Cost
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.TotalCost, new { htmlAttributes = new { @class = "form-control", id = "totalCost", @readonly = "readonly" } })
+            @Html.ValidationMessageFor(model => model.TotalCost, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <!-- Proposed Delivery Date (Date Picker) -->
+    <div class="form-group">
+      Proposed Delivery Date
+        <div class="col-md-10">
+            <input type="date" class="form-control" id="proposedDeliveryDate" />
+            @Html.ValidationMessageFor(model => model.ProposedDeliveryDate, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <!-- Description -->
+    <div class="form-group">
+  Description
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <!-- Status (Non-editable, displaying "Pending") -->
+    <div class="form-group">
+       Status
+        <div class="col-md-10">
+            <input type="text" class="form-control" value="Pending" readonly="readonly" />
+            @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <!-- Submit Button -->
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "TenderProposalList")
+</div>
+
+<script>
+    // JavaScript to calculate Total Cost
+    document.getElementById("quantity").addEventListener("input", calculateTotalCost);
+    document.getElementById("unitPrice").addEventListener("input", calculateTotalCost);
+
+    function calculateTotalCost() {
+        var quantity = parseFloat(document.getElementById("quantity").value) || 0;
+        var unitPrice = parseFloat(document.getElementById("unitPrice").value) || 0;
+        var totalCost = quantity * unitPrice;
+        document.getElementById("totalCost").value = totalCost.toFixed(2); // Show calculated cost
+    }
+</script>

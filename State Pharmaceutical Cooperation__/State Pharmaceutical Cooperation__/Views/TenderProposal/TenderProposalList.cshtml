@@ -1,0 +1,40 @@
+﻿@model IEnumerable<State_Pharmaceutical_Cooperation__.Models.TenderProposal>
+
+@{
+    ViewBag.Title = "Tender Proposal List";
+}
+
+<h2>Tender Proposals</h2>
+
+
+
+<table class="table">
+    <tr>
+        <th>Supplier Name</th>
+        <th>Drug</th>
+        <th>Quantity</th>
+        <th>Unit Price</th>
+        <th>Total Cost</th>
+        <th>Proposed Delivery Date</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.SupplierName)</td>
+            <td>@Html.DisplayFor(modelItem => item.DrugName)</td>
+            <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+            <td>@Html.DisplayFor(modelItem => item.UnitPrice)</td>
+            <td>@Html.DisplayFor(modelItem => item.TotalCost)</td>
+            <td>@Html.DisplayFor(modelItem => item.ProposedDeliveryDate)</td>
+            <td>@Html.DisplayFor(modelItem => item.Status)</td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Status", "Status", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+    }
+</table>

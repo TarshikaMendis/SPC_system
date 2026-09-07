@@ -1,0 +1,166 @@
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.dll.config
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.pdb
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csc.exe
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csc.exe.config
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csc.rsp
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csi.exe
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csi.exe.config
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csi.rsp
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.AppContext.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Console.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.IO.Compression.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Net.Http.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.ValueTuple.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\vbc.exe
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\vbc.exe.config
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\vbc.rsp
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\VBCSCompiler.exe
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Antlr3.Runtime.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\EntityFramework.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\EntityFramework.SqlServer.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Newtonsoft.Json.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Helpers.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Mvc.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Optimization.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Razor.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.Razor.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\WebGrease.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\EntityFramework.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\EntityFramework.SqlServer.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Helpers.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Mvc.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Optimization.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Razor.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.Razor.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Newtonsoft.Json.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Antlr3.Runtime.pdb
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\obj\Debug\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.csproj.AssemblyReference.cache
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\obj\Debug\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.csproj.CoreCompileInputs.cache
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\obj\Debug\STAFF & .E488DC50.Up2Date
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\obj\Debug\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__ apiproj\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\obj\Debug\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.pdb
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.dll.config
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.pdb
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csc.exe
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csc.exe.config
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csc.rsp
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csi.exe
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csi.exe.config
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\csi.rsp
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.AppContext.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Console.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.IO.Compression.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Net.Http.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.ValueTuple.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\vbc.exe
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\vbc.exe.config
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\vbc.rsp
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\VBCSCompiler.exe
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Antlr3.Runtime.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\EntityFramework.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\EntityFramework.SqlServer.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Newtonsoft.Json.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Helpers.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Mvc.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Optimization.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Razor.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.Razor.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\WebGrease.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\EntityFramework.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\EntityFramework.SqlServer.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Helpers.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Mvc.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Optimization.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.Razor.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\System.Web.WebPages.Razor.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Newtonsoft.Json.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Antlr3.Runtime.pdb
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\obj\Debug\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.csproj.AssemblyReference.cache
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\obj\Debug\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.csproj.CoreCompileInputs.cache
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\obj\Debug\STAFF & .E488DC50.Up2Date
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\obj\Debug\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.dll
+C:\Users\Savi Aby\source\repos\State Pharmaceutical Cooperation__\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__\obj\Debug\STAFF & MANUFACTURING PLANTS State Pharmaceutical Cooperation__.pdb

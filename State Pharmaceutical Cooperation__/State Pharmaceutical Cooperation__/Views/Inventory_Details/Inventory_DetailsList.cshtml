@@ -1,0 +1,72 @@
+﻿@model IEnumerable<State_Pharmaceutical_Cooperation__.Models.Inventory_Details>
+
+@{
+    ViewBag.Title = "Inventory List";
+}
+
+<h2>Inventory Information</h2>
+
+<p>@Html.ActionLink("Add New Item", "Create")</p>
+
+<div class="table-responsive">
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                
+                <th>Name</th>
+                <th>Company</th>
+                <th>Stock Quantity</th>
+                <th>Supplier</th>
+                <th>Exp Date</th>
+                <th>Price(LKR)</th>
+                <th>Last Restock Date</th>
+                <th>Batch</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    
+                    <td>@Html.DisplayFor(modelItem => item.Drug_Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Manufacturing_Company)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Stock_Quantity)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Supplier_Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Expiry_Date)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Unit_Price)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Last_Restock_Date)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Batch_Number)</td>
+                    <td>
+                        
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .table-responsive {
+        overflow-x: auto; /* Enable horizontal scrolling */
+    }
+
+    .table-sm {
+        font-size: 0.875rem; /* Smaller font size */
+    }
+
+    .table th, .table td {
+        white-space: nowrap; /* Prevent text wrapping */
+        padding: 0.5rem; /* Reduce padding */
+    }
+
+    .table th {
+        background-color: #f8f9fa; /* Light background for headers */
+    }
+
+    .table {
+        width: 100%; /* Ensure table takes full width */
+    }
+</style>

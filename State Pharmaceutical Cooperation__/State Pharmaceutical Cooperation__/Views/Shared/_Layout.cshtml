@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - SPC - Admin</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: black; 
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            background-color: #640217;
+            border-radius: 0;
+            padding: 10px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .navbar .navbar-brand,
+            .navbar .nav-link {
+                color: #ffffff !important;
+                transition: color 0.3s ease;
+            }
+
+                .navbar .nav-link:hover {
+                    color: #ffcc80 !important; /* Light orange for hover */
+                }
+
+        /* Body Content Styles */
+        .body-content {
+            background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white */
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            color: #4B0082; /* Dark purple text */
+            margin-top: 20px;
+        }
+
+            footer p {
+                margin: 0;
+            }
+
+        /* Button Styles */
+        .btn-danger {
+            background: white; /*  for logout button */
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .btn-danger:hover {
+                background-color: gray; /* on hover */
+            }
+
+        /* Additional Purple Theme Styles */
+        h1, h2, h3, h4, h5, h6 {
+            color: #4B0082; /* Dark purple for headings */
+        }
+
+        a {
+            color: #9370DB; /* Medium purple for links */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+            a:hover {
+                color: #7B68EE; /* Slightly darker purple on hover */
+            }
+
+        input, select, textarea {
+            border: 2px solid #D8BFD8; /* Light purple border */
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 1rem;
+            color: #4B0082; /* Dark purple text */
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+            input:focus, select:focus, textarea:focus {
+                border-color: #9370DB; /* Medium purple for focus */
+                box-shadow: 0 0 8px rgba(147, 112, 219, 0.5);
+            }
+
+        .btn-primary {
+            background-color: #9370DB; /* Medium purple */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .btn-primary:hover {
+                background-color: #7B68EE; /* Slightly darker purple on hover */
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm">
+        <div class="container">
+            @Html.ActionLink("State Pharmaceutical Cooperation", "Dashboard", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("Dashboard", "Dashboard", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div>
+            @using (Html.BeginForm("Logout", "Home", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn btn-danger">Logout</button>
+            }
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - State Pharmaceutical Cooperation</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

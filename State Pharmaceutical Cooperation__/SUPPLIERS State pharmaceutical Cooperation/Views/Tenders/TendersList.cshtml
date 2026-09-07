@@ -1,0 +1,67 @@
+﻿@model IEnumerable<SUPPLIERS_State_pharmaceutical_Cooperation.Models.Tender>
+
+@{
+    ViewBag.Title = "TendersList";
+}
+
+<h2>Tenders</h2>
+
+<!-- Display success message -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Quantity Required
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+           Published Date
+        </th>
+        <th>
+           Closing Date
+        </th>
+        <th>
+           Status
+        </th>
+        <th>Operations</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DrugName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantityRequired)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenderDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublishedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClosingDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.ActionLink("Get This Tender", "RedirectToTenderApprovals", new { id = item.TenderID, drugName = item.DrugName, quantity = item.QuantityRequired })
+            </td>
+        </tr>
+    }
+
+</table>

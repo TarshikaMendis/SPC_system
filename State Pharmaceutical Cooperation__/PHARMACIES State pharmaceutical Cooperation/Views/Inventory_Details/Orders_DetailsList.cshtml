@@ -1,0 +1,39 @@
+﻿@model IEnumerable<PHARMACIES_State_pharmaceutical_Cooperation.Models.Orders_Details>
+
+<h2>Orders List</h2>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            
+            <th>Pharmacy Name</th>
+            <th>Drug</th>
+            <th>Batch</th>
+            <th>Quantity Ordered</th>
+            <th>Unit Price (LKR)</th>
+            <th>Total Cost</th>
+            <th>Order Date</th>
+            <th>Status</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Pharmacy_Name</td>
+                <td>@item.Drug_Name</td>
+                <td>@item.Batch_Number</td>
+                <td>@item.Quantity_Ordered</td>
+                <td>@item.Unit_Price</td>
+                <td>@item.Total_Cost</td>
+                <td>@item.Order_Date</td>
+                <td>@item.Status</td>
+              
+            </tr>
+        }
+    </tbody>
+</table>
+

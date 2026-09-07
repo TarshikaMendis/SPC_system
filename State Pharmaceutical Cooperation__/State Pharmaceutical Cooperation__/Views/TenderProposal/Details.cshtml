@@ -1,0 +1,41 @@
+﻿@model State_Pharmaceutical_Cooperation__.Models.TenderProposal
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tender Proposal</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Supplier Name:</dt>
+        <dd>@Html.DisplayFor(model => model.SupplierName)</dd>
+
+        <dt>Drug Name:</dt>
+        <dd>@Html.DisplayFor(model => model.DrugName)</dd>
+
+        <dt>Quantity:</dt>
+        <dd>@Html.DisplayFor(model => model.Quantity)</dd>
+
+        <dt>Unit Price:</dt>
+        <dd>@Html.DisplayFor(model => model.UnitPrice)</dd>
+
+        <dt>Total Cost:</dt>
+        <dd>@Html.DisplayFor(model => model.TotalCost)</dd>
+
+        <dt>Proposed Delivery Date:</dt>
+        <dd>@Html.DisplayFor(model => model.ProposedDeliveryDate)</dd>
+
+        <dt>Description:</dt>
+        <dd>@Html.DisplayFor(model => model.Description)</dd>
+
+        <dt>Status:</dt>
+        <dd>@Html.DisplayFor(model => model.Status)</dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Status", "Status", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "TenderProposalList")
+</p>

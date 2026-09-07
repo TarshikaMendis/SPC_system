@@ -1,0 +1,62 @@
+﻿@model State_Pharmaceutical_Cooperation__.Models.Orders_Details
+
+@{
+    ViewBag.Title = "Update Order Status";
+}
+
+<h2>Update Order Status</h2>
+
+@using (Html.BeginForm("Status", "Orders_Details", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.Order_Id)
+
+    <!-- Display Order Main Details -->
+    <div class="order-details">
+        <h4>Order Details</h4>
+        <hr />
+        <dl class="dl-horizontal">
+          
+
+            <dt>Pharmacy Name:</dt>
+            <dd>@Model.Pharmacy_Name</dd>
+
+            <dt>Drug Name:</dt>
+            <dd>@Model.Drug_Name</dd>
+
+            <dt>Batch Number:</dt>
+            <dd>@Model.Batch_Number</dd>
+
+            <dt>Quantity Ordered:</dt>
+            <dd>@Model.Quantity_Ordered</dd>
+
+            <dt>Unit Price:</dt>
+            <dd>@Model.Unit_Price.ToString("C")</dd> <!-- Format as currency -->
+
+            <dt>Total Cost:</dt>
+            <dd>@Model.Total_Cost.ToString("C")</dd> <!-- Format as currency -->
+
+            <dt>Order Date:</dt>
+            <dd>@Model.Order_Date.ToString("yyyy-MM-dd HH:mm")</dd>
+
+            <dt>Current Status:</dt>
+            <dd>@Model.Status</dd>
+        </dl>
+    </div>
+
+    <!-- Status Update Section -->
+    <div class="form-group">
+        <label for="newStatus">New Status:</label>
+        <select id="newStatus" name="newStatus" class="form-control">
+            <option value="InProgress">In Progress</option>
+            <option value="Approved">Approved</option>
+            <option value="Shipped">Shipped</option>
+            <option value="OutForDelivery">Out for Delivery</option>
+            <option value="Returned">Returned</option>
+        </select>
+    </div>
+    <br>
+
+    <button type="submit" class="btn btn-primary">Update Status</button>
+    @Html.ActionLink("Cancel", "Orders_DetailsList", null, new { @class = "btn btn-default" })
+}

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<SUPPLIERS_State_pharmaceutical_Cooperation.Models.Inventory_Details>
+
+@{
+    ViewBag.Title = "Inventory List";
+}
+
+@{
+    // Check if TempData contains the success message and display it
+    var successMessage = TempData["SuccessMessage"] as string;
+}
+
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <div class="alert alert-success">
+        @successMessage
+    </div>
+}
+
+<h2>Inventory Information</h2>
+
+
+
+<table class="table" id="inventoryTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Stock Quantity</th>
+            <th>Supplier</th>
+            <th>Exp Date</th>
+            <th>Unit Price</th>
+            <th>Last Restock Date</th>
+            <th>Batch Number</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Drug_Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Manufacturing_Company)</td>
+                <td>@Html.DisplayFor(modelItem => item.Stock_Quantity)</td>
+                <td>@Html.DisplayFor(modelItem => item.Supplier_Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Expiry_Date)</td>
+                <td>@Html.DisplayFor(modelItem => item.Unit_Price)</td>
+                <td>@Html.DisplayFor(modelItem => item.Last_Restock_Date)</td>
+                <td>@Html.DisplayFor(modelItem => item.Batch_Number)</td>
+             
+            </tr>
+        }
+    </tbody>
+</table>
+
+

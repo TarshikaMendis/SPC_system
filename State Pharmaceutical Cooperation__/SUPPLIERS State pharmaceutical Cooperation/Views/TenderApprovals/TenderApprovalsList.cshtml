@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Tender Approvals List";
+}
+
+<h2>Tender Approvals</h2>
+
+
+
+<!-- Tender Approvals Table -->
+<table class="table" id="tenderTable">
+    <thead>
+        <tr>
+            <th>Drug Name</th>
+            <th>Quantity</th>
+            <th>Supplier Name</th>
+            <th>Unit Price</th>
+            <th>Total Cost</th>
+            <th>Delivery Date</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var approval in Model)
+        {
+            <tr>
+                <td>@approval.DrugName</td>
+                <td>@approval.Quantity</td>
+                <td>@approval.SupplierName</td>
+                <td>@approval.UnitPrice.ToString("C")</td>
+                <td>@approval.TotalCost.ToString("C")</td>
+                <td>@approval.DeliveryDate.ToShortDateString()</td>
+                <td>@approval.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
